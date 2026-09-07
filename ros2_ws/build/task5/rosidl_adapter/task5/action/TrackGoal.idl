@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from task5/action/TrackGoal.action
+// generated code does not contain a copyright notice
+
+
+module task5 {
+  module action {
+    struct TrackGoal_Goal {
+      float x;
+
+      float y;
+    };
+    struct TrackGoal_Result {
+      string result;
+    };
+    struct TrackGoal_Feedback {
+      float distance_left;
+    };
+  };
+};

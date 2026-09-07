@@ -1,0 +1,4 @@
+[console_scripts]
+client = task5_tester.goal_client:main
+server = task5_tester.goal_tracker_server:main
+

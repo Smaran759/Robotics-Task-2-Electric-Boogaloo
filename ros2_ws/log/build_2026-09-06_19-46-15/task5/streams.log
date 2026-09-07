@@ -1,0 +1,287 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/task5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/task5 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/task5
+[0.403s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.404s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.405s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.406s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.406s]   CMake.
+[0.406s] 
+[0.406s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.406s]   to tell CMake that the project requires at least <min> but has been updated
+[0.406s]   to work with policies introduced by <max> or earlier.
+[0.406s] 
+[0.407s] [0m
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.568s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.650s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.665s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.119s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.172s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.172s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.172s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.172s]   the cmake_policy command to set the policy and suppress this warning.
+[2.172s] 
+[2.172s] Call Stack (most recent call first):
+[2.172s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.173s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.173s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.173s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.173s] [0m
+[2.191s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.194s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.195s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.195s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.195s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.195s]   the cmake_policy command to set the policy and suppress this warning.
+[2.195s] 
+[2.195s] Call Stack (most recent call first):
+[2.195s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.195s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.195s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.195s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.195s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.195s] [0m
+[2.213s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.213s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.213s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.213s]   the cmake_policy command to set the policy and suppress this warning.
+[2.213s] 
+[2.213s] Call Stack (most recent call first):
+[2.213s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.213s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.213s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.213s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.213s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.213s] [0m
+[2.218s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.219s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.219s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.219s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.239s] -- Found PythonExtra: .so
+[2.452s] -- Added test 'lint_cmake' to check CMake code style
+[2.454s] -- Added test 'xmllint' to check XML markup files
+[2.459s] -- Configuring done (2.4s)
+[2.485s] -- Generating done (0.0s)
+[2.497s] -- Build files have been written to: /root/ros2_ws/build/task5
+[2.504s] Invoked command in '/root/ros2_ws/build/task5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/task5 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/task5
+[2.505s] Invoking command in '/root/ros2_ws/build/task5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/task5 -- -j28 -l28
+[2.531s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.539s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.539s] [  9%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[2.543s] [  9%] Built target ament_cmake_python_copy_task5
+[2.699s] running egg_info
+[2.699s] creating task5.egg-info
+[2.699s] writing task5.egg-info/PKG-INFO
+[2.699s] writing dependency_links to task5.egg-info/dependency_links.txt
+[2.699s] writing top-level names to task5.egg-info/top_level.txt
+[2.699s] writing manifest file 'task5.egg-info/SOURCES.txt'
+[2.700s] reading manifest file 'task5.egg-info/SOURCES.txt'
+[2.701s] writing manifest file 'task5.egg-info/SOURCES.txt'
+[2.714s] [  9%] Built target task5__rs
+[2.715s] [  9%] Built target ament_cmake_python_build_task5_egg
+[2.798s] [ 12%] [32mBuilding C object CMakeFiles/task5__rosidl_generator_c.dir/rosidl_generator_c/task5/action/detail/track_goal__functions.c.o[0m
+[2.800s] [ 12%] Built target task5__cpp
+[2.804s] [ 15%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.805s] [ 21%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.805s] [ 21%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.892s] [ 25%] [1m[32mLinking C shared library libtask5__rosidl_generator_c.so[0m
+[2.917s] [ 25%] Built target task5__rosidl_generator_c
+[2.922s] [ 31%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.922s] [ 31%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.922s] [ 34%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.989s] [ 37%] [32mBuilding CXX object CMakeFiles/task5__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task5/action/track_goal__type_support.cpp.o[0m
+[3.011s] [ 40%] [32mBuilding CXX object CMakeFiles/task5__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task5/action/detail/track_goal__type_support.cpp.o[0m
+[3.042s] [ 43%] [32mBuilding CXX object CMakeFiles/task5__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task5/action/detail/dds_fastrtps/track_goal__type_support.cpp.o[0m
+[3.099s] [ 46%] [32mBuilding CXX object CMakeFiles/task5__rosidl_typesupport_c.dir/rosidl_typesupport_c/task5/action/track_goal__type_support.cpp.o[0m
+[3.136s] [ 50%] [1m[32mLinking CXX shared library libtask5__rosidl_typesupport_c.so[0m
+[3.147s] [ 53%] [32mBuilding C object CMakeFiles/task5__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task5/action/detail/track_goal__type_support.c.o[0m
+[3.164s] [ 56%] [32mBuilding CXX object CMakeFiles/task5__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task5/action/detail/track_goal__type_support_c.cpp.o[0m
+[3.167s] [ 56%] Built target task5__rosidl_typesupport_c
+[3.187s] [ 59%] [1m[32mLinking C shared library libtask5__rosidl_typesupport_introspection_c.so[0m
+[3.210s] [ 59%] Built target task5__rosidl_typesupport_introspection_c
+[3.243s] [ 62%] [1m[32mLinking CXX shared library libtask5__rosidl_typesupport_cpp.so[0m
+[3.273s] [ 62%] Built target task5__rosidl_typesupport_cpp
+[3.345s] [ 65%] [1m[32mLinking CXX shared library libtask5__rosidl_typesupport_introspection_cpp.so[0m
+[3.356s] [ 68%] [1m[32mLinking CXX shared library libtask5__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.386s] [ 71%] [1m[32mLinking CXX shared library libtask5__rosidl_typesupport_fastrtps_c.so[0m
+[3.391s] [ 71%] Built target task5__rosidl_typesupport_introspection_cpp
+[3.402s] [ 71%] Built target task5__rosidl_typesupport_fastrtps_cpp
+[3.430s] [ 71%] Built target task5__rosidl_typesupport_fastrtps_c
+[3.442s] [ 71%] Built target task5
+[3.457s] [ 75%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.875s] [ 75%] Built target task5__py
+[3.886s] [ 78%] [32mBuilding C object CMakeFiles/task5__rosidl_generator_py.dir/rosidl_generator_py/task5/action/_track_goal_s.c.o[0m
+[3.986s] [ 81%] [1m[32mLinking C shared library rosidl_generator_py/task5/libtask5__rosidl_generator_py.so[0m
+[4.019s] [ 81%] Built target task5__rosidl_generator_py
+[4.035s] [ 84%] [32mBuilding C object CMakeFiles/task5__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/task5/_task5_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.036s] [ 87%] [32mBuilding C object CMakeFiles/task5__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/task5/_task5_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.036s] [ 90%] [32mBuilding C object CMakeFiles/task5__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/task5/_task5_s.ep.rosidl_typesupport_c.c.o[0m
+[4.115s] [ 93%] [1m[32mLinking C shared library rosidl_generator_py/task5/task5_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.122s] [ 96%] [1m[32mLinking C shared library rosidl_generator_py/task5/task5_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.123s] [100%] [1m[32mLinking C shared library rosidl_generator_py/task5/task5_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.146s] [100%] Built target task5__rosidl_typesupport_c__pyext
+[4.156s] [100%] Built target task5__rosidl_typesupport_introspection_c__pyext
+[4.157s] [100%] Built target task5__rosidl_typesupport_fastrtps_c__pyext
+[4.165s] Invoked command in '/root/ros2_ws/build/task5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/task5 -- -j28 -l28
+[4.168s] Invoking command in '/root/ros2_ws/build/task5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/task5
+[4.174s] -- Install configuration: ""
+[4.174s] -- Installing: /root/ros2_ws/install/task5/share/ament_index/resource_index/rosidl_interfaces/task5
+[4.174s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5
+[4.174s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg
+[4.174s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg/rosidl_generator_c__visibility_control.h
+[4.175s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.175s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.175s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__functions.c
+[4.175s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__struct.h
+[4.175s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__functions.h
+[4.176s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__type_support.h
+[4.176s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/track_goal.h
+[4.176s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/library_path.sh
+[4.176s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/library_path.dsv
+[4.176s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_generator_c.so
+[4.176s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_generator_c.so" to ""
+[4.176s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5
+[4.176s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/msg
+[4.176s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.176s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.176s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.177s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__rosidl_typesupport_fastrtps_c.h
+[4.177s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_fastrtps_c.so
+[4.177s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_fastrtps_c.so" to ""
+[4.177s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5
+[4.177s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/msg
+[4.177s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.177s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.177s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.177s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__type_support.c
+[4.177s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__rosidl_typesupport_introspection_c.h
+[4.177s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_introspection_c.so
+[4.177s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_introspection_c.so" to ""
+[4.177s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_c.so
+[4.178s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_c.so" to ""
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/msg
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__traits.hpp
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__builder.hpp
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__type_support.hpp
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__struct.hpp
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/track_goal.hpp
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/msg
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.178s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[4.178s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/dds_fastrtps
+[4.178s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_fastrtps_cpp.so
+[4.179s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.179s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5
+[4.179s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action
+[4.179s] -- Up-to-date: /root/ros2_ws/install/task5/include/task5/task5/action/detail
+[4.179s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__type_support.cpp
+[4.179s] -- Installing: /root/ros2_ws/install/task5/include/task5/task5/action/detail/track_goal__rosidl_typesupport_introspection_cpp.hpp
+[4.179s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_introspection_cpp.so
+[4.179s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_introspection_cpp.so" to ""
+[4.179s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_cpp.so
+[4.179s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_typesupport_cpp.so" to ""
+[4.180s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/pythonpath.sh
+[4.180s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/pythonpath.dsv
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5-0.0.0-py3.10.egg-info
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5-0.0.0-py3.10.egg-info/PKG-INFO
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5-0.0.0-py3.10.egg-info/top_level.txt
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/_task5_s.ep.rosidl_typesupport_introspection_c.c
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.180s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action/_track_goal_s.c
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action/_track_goal.py
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action/__init__.py
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/libtask5__rosidl_generator_py.so
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/_task5_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/__init__.py
+[4.181s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/_task5_s.ep.rosidl_typesupport_c.c
+[4.230s] Listing '/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5'...
+[4.230s] Compiling '/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/__init__.py'...
+[4.230s] Listing '/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action'...
+[4.230s] Compiling '/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action/__init__.py'...
+[4.230s] Compiling '/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/action/_track_goal.py'...
+[4.233s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.233s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.233s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.233s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.233s] -- Installing: /root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.233s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages/task5/task5_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.233s] -- Installing: /root/ros2_ws/install/task5/lib/libtask5__rosidl_generator_py.so
+[4.233s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/task5/lib/libtask5__rosidl_generator_py.so" to ""
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/ament_index/resource_index/rust_packages/task5
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/Cargo.toml
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/src
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/src/action
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/src/action/rmw.rs
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/src/action.rs
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/src/lib.rs
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/rust/build.rs
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/action/TrackGoal.idl
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/action/TrackGoal.action
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/ament_index/resource_index/package_run_dependencies/task5
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/ament_index/resource_index/parent_prefix_path/task5
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/ament_prefix_path.sh
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/ament_prefix_path.dsv
+[4.234s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/path.sh
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/environment/path.dsv
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/local_setup.bash
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/local_setup.sh
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/local_setup.zsh
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/local_setup.dsv
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/package.dsv
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/ament_index/resource_index/packages/task5
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_generator_cExport.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_generator_cExport-noconfig.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_typesupport_fastrtps_cExport.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_introspection_cExport.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_cExport.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_cExport-noconfig.cmake
+[4.235s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_generator_cppExport.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_introspection_cppExport.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_cppExport.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5__rosidl_typesupport_cppExport-noconfig.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_generator_pyExport.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/export_task5__rosidl_generator_pyExport-noconfig.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/rosidl_cmake-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/ament_cmake_export_libraries-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/ament_cmake_export_targets-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.236s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5Config.cmake
+[4.237s] -- Installing: /root/ros2_ws/install/task5/share/task5/cmake/task5Config-version.cmake
+[4.237s] -- Installing: /root/ros2_ws/install/task5/share/task5/package.xml
+[4.238s] Invoked command in '/root/ros2_ws/build/task5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/task5

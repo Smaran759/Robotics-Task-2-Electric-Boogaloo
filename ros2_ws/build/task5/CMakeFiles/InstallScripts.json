@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/ros2_ws/build/task5/cmake_install.cmake",
+		"/root/ros2_ws/build/task5/task5__py/cmake_install.cmake",
+		"/root/ros2_ws/build/task5/task5__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

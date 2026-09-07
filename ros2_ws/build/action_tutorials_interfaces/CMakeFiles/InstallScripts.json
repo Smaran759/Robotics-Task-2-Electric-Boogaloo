@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/ros2_ws/build/action_tutorials_interfaces/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,22 @@
+[0.883s] Invoking command in '/root/ros2_ws/src/task5_tester': AMENT_PREFIX_PATH=/root/ros2_ws/install/task5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/task5 LD_LIBRARY_PATH=/root/ros2_ws/install/task5/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/task5_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task5_tester/lib/python3.10/site-packages:/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task5_tester build --build-base /root/ros2_ws/build/task5_tester/build install --record /root/ros2_ws/build/task5_tester/install.log --single-version-externally-managed install_data
+[1.119s] running egg_info
+[1.119s] writing ../../build/task5_tester/task5_tester.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/task5_tester/task5_tester.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/task5_tester/task5_tester.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/task5_tester/task5_tester.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/task5_tester/task5_tester.egg-info/top_level.txt
+[1.122s] reading manifest file '../../build/task5_tester/task5_tester.egg-info/SOURCES.txt'
+[1.122s] writing manifest file '../../build/task5_tester/task5_tester.egg-info/SOURCES.txt'
+[1.122s] running build
+[1.122s] running build_py
+[1.123s] running install
+[1.123s] running install_lib
+[1.124s] running install_data
+[1.124s] running install_egg_info
+[1.126s] removing '/root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester-0.0.0-py3.10.egg-info' (and everything under it)
+[1.126s] Copying ../../build/task5_tester/task5_tester.egg-info to /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester-0.0.0-py3.10.egg-info
+[1.127s] running install_scripts
+[1.149s] Installing client script to /root/ros2_ws/install/task5_tester/lib/task5_tester
+[1.150s] Installing server script to /root/ros2_ws/install/task5_tester/lib/task5_tester
+[1.150s] writing list of installed files to '/root/ros2_ws/build/task5_tester/install.log'
+[1.176s] Invoked command in '/root/ros2_ws/src/task5_tester' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/task5:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/task5 LD_LIBRARY_PATH=/root/ros2_ws/install/task5/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/task5_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task5_tester/lib/python3.10/site-packages:/root/ros2_ws/install/task5/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task5_tester build --build-base /root/ros2_ws/build/task5_tester/build install --record /root/ros2_ws/build/task5_tester/install.log --single-version-externally-managed install_data

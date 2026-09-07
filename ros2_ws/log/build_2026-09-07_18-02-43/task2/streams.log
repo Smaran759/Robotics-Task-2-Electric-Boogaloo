@@ -1,0 +1,172 @@
+[0.379s] Invoking command in '/root/ros2_ws/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task5_tester:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/task2 -- -j28 -l28
+[0.675s] [  3%] Built target task2__cpp
+[0.675s] [  6%] Built target task2__rs
+[0.675s] [ 15%] Built target task2__rosidl_generator_c
+[0.676s] [ 15%] Built target ament_cmake_python_copy_task2
+[0.676s] [ 25%] Built target task2__rosidl_typesupport_fastrtps_cpp
+[0.676s] [ 34%] Built target task2__rosidl_typesupport_introspection_cpp
+[0.676s] [ 50%] Built target task2__rosidl_typesupport_c
+[0.676s] [ 53%] Built target task2__rosidl_typesupport_cpp
+[0.676s] [ 62%] Built target task2__rosidl_typesupport_introspection_c
+[0.676s] [ 71%] Built target task2__rosidl_typesupport_fastrtps_c
+[0.676s] [ 71%] Built target task2
+[0.676s] [ 75%] Built target task2__py
+[0.676s] [ 81%] Built target task2__rosidl_generator_py
+[0.676s] [ 87%] Built target task2__rosidl_typesupport_fastrtps_c__pyext
+[0.676s] [ 93%] Built target task2__rosidl_typesupport_c__pyext
+[0.676s] [100%] Built target task2__rosidl_typesupport_introspection_c__pyext
+[0.695s] running egg_info
+[0.695s] writing task2.egg-info/PKG-INFO
+[0.696s] writing dependency_links to task2.egg-info/dependency_links.txt
+[0.696s] writing top-level names to task2.egg-info/top_level.txt
+[0.698s] reading manifest file 'task2.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[0.724s] [100%] Built target ament_cmake_python_build_task2_egg
+[1.018s] Invoked command in '/root/ros2_ws/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task5_tester:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/task2 -- -j28 -l28
+[1.019s] Invoking command in '/root/ros2_ws/build/task2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task5_tester:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/task2
+[1.037s] -- Install configuration: ""
+[1.037s] -- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/rosidl_interfaces/task2
+[1.037s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.037s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__functions.c
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__struct.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__struct.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__functions.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__functions.c
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__functions.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robot_status.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_generator_c__visibility_control.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robo_status.h
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/library_path.sh
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/library_path.dsv
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_generator_c.so
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.038s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_fastrtps_c.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_fastrtps_c.so
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_introspection_c.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.c
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.c
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.039s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_introspection_c.so
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_c.so
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__traits.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__struct.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__builder.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__traits.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__struct.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__builder.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robot_status.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robo_status.hpp
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.040s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/dds_fastrtps
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_fastrtps_cpp.so
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.cpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_introspection_cpp.hpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.cpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_introspection_cpp.so
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_cpp.so
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/pythonpath.sh
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/pythonpath.dsv
+[1.041s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info
+[1.041s] -- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/PKG-INFO
+[1.041s] -- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/top_level.txt
+[1.042s] -- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.042s] -- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robo_status_s.c
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robot_status.py
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robot_status_s.c
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/__init__.py
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robo_status.py
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/libtask2__rosidl_generator_py.so
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_c.c
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_introspection_c.c
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.042s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/__init__.py
+[1.077s] Listing '/root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2'...
+[1.077s] Listing '/root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg'...
+[1.081s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.081s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.081s] -- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_generator_py.so
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/rust_packages/task2
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/Cargo.toml
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg
+[1.082s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg/rmw.rs
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg.rs
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/lib.rs
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/build.rs
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/msg/RoboStatus.idl
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/msg/RoboStatus.msg
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/package_run_dependencies/task2
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/parent_prefix_path/task2
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.sh
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.dsv
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/path.sh
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/path.dsv
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.bash
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.sh
+[1.083s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.zsh
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.dsv
+[1.084s] -- Installing: /root/ros2_ws/install/task2/share/task2/package.dsv
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/packages/task2
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cExport.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cExport-noconfig.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cExport.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cExport.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cExport.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cExport-noconfig.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cppExport.cmake
+[1.084s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cppExport.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cppExport.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cppExport-noconfig.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_pyExport.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_pyExport-noconfig.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_libraries-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_targets-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2Config.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2Config-version.cmake
+[1.085s] -- Up-to-date: /root/ros2_ws/install/task2/share/task2/package.xml
+[1.119s] Invoked command in '/root/ros2_ws/build/task2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/task5_tester:/root/ros2_ws/install/task4_tester:/root/ros2_ws/install/task3_tester:/root/ros2_ws/install/task2_tester:/root/ros2_ws/install/task1:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_action_pkg:/root/ros2_ws/install/launch_testing_examples:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/task2

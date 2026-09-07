@@ -1,0 +1,655 @@
+[0.000000] (-) TimerEvent: {}
+[0.000561] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.000603] (task1) JobQueued: {'identifier': 'task1', 'dependencies': OrderedDict()}
+[0.000628] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict()}
+[0.000776] (task2_tester) JobQueued: {'identifier': 'task2_tester', 'dependencies': OrderedDict()}
+[0.000798] (task3) JobQueued: {'identifier': 'task3', 'dependencies': OrderedDict()}
+[0.000826] (task4) JobQueued: {'identifier': 'task4', 'dependencies': OrderedDict()}
+[0.000848] (task4_tester) JobQueued: {'identifier': 'task4_tester', 'dependencies': OrderedDict()}
+[0.000869] (task3_tester) JobQueued: {'identifier': 'task3_tester', 'dependencies': OrderedDict([('task3', '/root/ros2_ws/install/task3')])}
+[0.000979] (task3) JobStarted: {'identifier': 'task3'}
+[0.005238] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.007853] (task1) JobStarted: {'identifier': 'task1'}
+[0.016554] (task2) JobStarted: {'identifier': 'task2'}
+[0.018617] (task2_tester) JobStarted: {'identifier': 'task2_tester'}
+[0.021401] (task4) JobStarted: {'identifier': 'task4'}
+[0.023304] (task4_tester) JobStarted: {'identifier': 'task4_tester'}
+[0.026965] (task3) JobProgress: {'identifier': 'task3', 'progress': 'cmake'}
+[0.027313] (task3) JobProgress: {'identifier': 'task3', 'progress': 'build'}
+[0.027740] (task3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/task3', '--', '-j28', '-l28'], 'cwd': '/root/ros2_ws/build/task3', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030117] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.030152] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[0.030223] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/action_tutorials_interfaces', '--', '-j28', '-l28'], 'cwd': '/root/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099831] (-) TimerEvent: {}
+[0.175147] (task2) JobProgress: {'identifier': 'task2', 'progress': 'cmake'}
+[0.175965] (task2) JobProgress: {'identifier': 'task2', 'progress': 'build'}
+[0.175996] (task2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/task2', '--', '-j28', '-l28'], 'cwd': '/root/ros2_ws/build/task2', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200005] (-) TimerEvent: {}
+[0.300245] (-) TimerEvent: {}
+[0.345374] (task4) JobProgress: {'identifier': 'task4', 'progress': 'cmake'}
+[0.345887] (task4) JobProgress: {'identifier': 'task4', 'progress': 'build'}
+[0.346019] (task4) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/task4', '--', '-j28', '-l28'], 'cwd': '/root/ros2_ws/build/task4', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task4'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.347807] (task3) StdoutLine: {'line': b'[  3%] Built target task3__rs\n'}
+[0.348809] (task3) StdoutLine: {'line': b'[  6%] Built target task3__cpp\n'}
+[0.349165] (task3) StdoutLine: {'line': b'[ 15%] Built target task3__rosidl_generator_c\n'}
+[0.349534] (task3) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_task3\n'}
+[0.349905] (task3) StdoutLine: {'line': b'[ 25%] Built target task3__rosidl_typesupport_c\n'}
+[0.350492] (task3) StdoutLine: {'line': b'[ 34%] Built target task3__rosidl_typesupport_introspection_c\n'}
+[0.350902] (task3) StdoutLine: {'line': b'[ 43%] Built target task3__rosidl_typesupport_fastrtps_cpp\n'}
+[0.350969] (task3) StdoutLine: {'line': b'[ 62%] Built target task3__rosidl_typesupport_cpp\n'}
+[0.351033] (task3) StdoutLine: {'line': b'[ 62%] Built target task3__rosidl_typesupport_introspection_cpp\n'}
+[0.351106] (task3) StdoutLine: {'line': b'[ 71%] Built target task3__rosidl_typesupport_fastrtps_c\n'}
+[0.351169] (task3) StdoutLine: {'line': b'[ 71%] Built target task3\n'}
+[0.351230] (task3) StdoutLine: {'line': b'[ 75%] Built target task3__py\n'}
+[0.351292] (task3) StdoutLine: {'line': b'[ 81%] Built target task3__rosidl_generator_py\n'}
+[0.351353] (task3) StdoutLine: {'line': b'[ 87%] Built target task3__rosidl_typesupport_introspection_c__pyext\n'}
+[0.351414] (task3) StdoutLine: {'line': b'[ 93%] Built target task3__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.351474] (task3) StdoutLine: {'line': b'[100%] Built target task3__rosidl_typesupport_c__pyext\n'}
+[0.351535] (task3) StdoutLine: {'line': b'running egg_info\n'}
+[0.351596] (task3) StdoutLine: {'line': b'writing task3.egg-info/PKG-INFO\n'}
+[0.351655] (task3) StdoutLine: {'line': b'writing dependency_links to task3.egg-info/dependency_links.txt\n'}
+[0.351719] (task3) StdoutLine: {'line': b'writing top-level names to task3.egg-info/top_level.txt\n'}
+[0.351798] (task3) StdoutLine: {'line': b"reading manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.351858] (task3) StdoutLine: {'line': b"writing manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.351917] (task3) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_task3_egg\n'}
+[0.351978] (task2) StdoutLine: {'line': b'[  3%] Built target task2__cpp\n'}
+[0.352075] (task2) StdoutLine: {'line': b'[  6%] Built target task2__rs\n'}
+[0.352142] (task2) StdoutLine: {'line': b'[ 15%] Built target task2__rosidl_generator_c\n'}
+[0.352205] (task2) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_task2\n'}
+[0.352266] (task2) StdoutLine: {'line': b'[ 25%] Built target task2__rosidl_typesupport_c\n'}
+[0.352327] (task2) StdoutLine: {'line': b'[ 34%] Built target task2__rosidl_typesupport_introspection_c\n'}
+[0.352389] (task2) StdoutLine: {'line': b'[ 43%] Built target task2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.352450] (task2) StdoutLine: {'line': b'[ 53%] Built target task2__rosidl_typesupport_cpp\n'}
+[0.352511] (task2) StdoutLine: {'line': b'[ 65%] Built target task2__rosidl_typesupport_fastrtps_c\n'}
+[0.352572] (task2) StdoutLine: {'line': b'[ 71%] Built target task2__rosidl_typesupport_introspection_cpp\n'}
+[0.352633] (task2) StdoutLine: {'line': b'[ 71%] Built target task2\n'}
+[0.352695] (task2) StdoutLine: {'line': b'[ 75%] Built target task2__py\n'}
+[0.352756] (task2) StdoutLine: {'line': b'[ 81%] Built target task2__rosidl_generator_py\n'}
+[0.352817] (task2) StdoutLine: {'line': b'[ 90%] Built target task2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.352879] (task2) StdoutLine: {'line': b'[ 93%] Built target task2__rosidl_typesupport_c__pyext\n'}
+[0.352940] (task2) StdoutLine: {'line': b'[100%] Built target task2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.353002] (task2) StdoutLine: {'line': b'running egg_info\n'}
+[0.353075] (task2) StdoutLine: {'line': b'writing task2.egg-info/PKG-INFO\n'}
+[0.353138] (task2) StdoutLine: {'line': b'writing dependency_links to task2.egg-info/dependency_links.txt\n'}
+[0.353199] (task2) StdoutLine: {'line': b'writing top-level names to task2.egg-info/top_level.txt\n'}
+[0.353259] (task2) StdoutLine: {'line': b"reading manifest file 'task2.egg-info/SOURCES.txt'\n"}
+[0.353318] (task2) StdoutLine: {'line': b"writing manifest file 'task2.egg-info/SOURCES.txt'\n"}
+[0.366059] (task2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_task2_egg\n'}
+[0.371474] (task4) StdoutLine: {'line': b'[  3%] Built target task4__cpp\n'}
+[0.371644] (task4) StdoutLine: {'line': b'[  6%] Built target task4__rs\n'}
+[0.372284] (task4) StdoutLine: {'line': b'[ 15%] Built target task4__rosidl_generator_c\n'}
+[0.376479] (task4) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_task4\n'}
+[0.382313] (task4) StdoutLine: {'line': b'[ 25%] Built target task4__rosidl_typesupport_cpp\n'}
+[0.382751] (task4) StdoutLine: {'line': b'[ 34%] Built target task4__rosidl_typesupport_introspection_cpp\n'}
+[0.383263] (task4) StdoutLine: {'line': b'[ 43%] Built target task4__rosidl_typesupport_introspection_c\n'}
+[0.383446] (task4) StdoutLine: {'line': b'[ 53%] Built target task4__rosidl_typesupport_c\n'}
+[0.383554] (task4) StdoutLine: {'line': b'[ 62%] Built target task4__rosidl_typesupport_fastrtps_cpp\n'}
+[0.383695] (task4) StdoutLine: {'line': b'[ 71%] Built target task4__rosidl_typesupport_fastrtps_c\n'}
+[0.392350] (task4) StdoutLine: {'line': b'[ 71%] Built target task4\n'}
+[0.400311] (-) TimerEvent: {}
+[0.401386] (task4) StdoutLine: {'line': b'[ 75%] Built target task4__py\n'}
+[0.411558] (task4) StdoutLine: {'line': b'[ 81%] Built target task4__rosidl_generator_py\n'}
+[0.422691] (task4) StdoutLine: {'line': b'[ 87%] Built target task4__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.422850] (task4) StdoutLine: {'line': b'[ 93%] Built target task4__rosidl_typesupport_introspection_c__pyext\n'}
+[0.423047] (task4) StdoutLine: {'line': b'[100%] Built target task4__rosidl_typesupport_c__pyext\n'}
+[0.494324] (task3) CommandEnded: {'returncode': 0}
+[0.495300] (task3) JobProgress: {'identifier': 'task3', 'progress': 'install'}
+[0.498789] (task3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/task3'], 'cwd': '/root/ros2_ws/build/task3', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.501302] (-) TimerEvent: {}
+[0.503094] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[0.503590] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[0.503866] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/action_tutorials_interfaces'], 'cwd': '/root/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.505768] (task3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.506306] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/ament_index/resource_index/rosidl_interfaces/task3\n'}
+[0.506386] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.506456] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg\n'}
+[0.506537] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.506606] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.506674] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/add_two.h\n'}
+[0.506741] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.506808] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__struct.h\n'}
+[0.506876] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__functions.h\n'}
+[0.506945] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__type_support.h\n'}
+[0.507013] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__functions.c\n'}
+[0.507244] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/library_path.sh\n'}
+[0.507317] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/library_path.dsv\n'}
+[0.507384] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_generator_c.so\n'}
+[0.507450] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.507515] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg\n'}
+[0.507623] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.507690] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.507756] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.507822] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__rosidl_typesupport_fastrtps_c.h\n'}
+[0.507887] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_fastrtps_c.so\n'}
+[0.507952] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.508017] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg\n'}
+[0.508135] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.508221] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.508337] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.508403] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__builder.hpp\n'}
+[0.508467] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__struct.hpp\n'}
+[0.508532] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__traits.hpp\n'}
+[0.508597] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__type_support.hpp\n'}
+[0.508662] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/add_two.hpp\n'}
+[0.508727] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.508792] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg\n'}
+[0.508858] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.508930] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.508996] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.509092] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.509301] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/dds_fastrtps\n'}
+[0.509367] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.509433] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.509498] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg\n'}
+[0.509563] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.509628] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.509693] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.509757] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__rosidl_typesupport_introspection_c.h\n'}
+[0.509822] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__type_support.c\n'}
+[0.509887] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_introspection_c.so\n'}
+[0.509952] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_c.so\n'}
+[0.510016] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3\n'}
+[0.510117] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv\n'}
+[0.510184] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail\n'}
+[0.510248] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__type_support.cpp\n'}
+[0.510312] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/include/task3/task3/srv/detail/add_two__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.510376] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_introspection_cpp.so\n'}
+[0.510439] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_cpp.so\n'}
+[0.510504] (task2) CommandEnded: {'returncode': 0}
+[0.511263] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/pythonpath.sh\n'}
+[0.511341] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/pythonpath.dsv\n'}
+[0.511438] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info\n'}
+[0.511505] (task3) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.511571] (task3) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.511636] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.511814] (task3) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.511883] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[0.511989] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[0.512070] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[0.512258] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.512325] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[0.512392] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[0.512457] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[0.512522] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[0.512587] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[0.512653] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[0.512718] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[0.512784] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[0.512848] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[0.512913] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[0.512978] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[0.513047] (task3) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.513282] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3\n'}
+[0.513351] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_c.c\n'}
+[0.513416] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.513487] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/libtask3__rosidl_generator_py.so\n'}
+[0.513553] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.513618] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.513683] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv\n'}
+[0.513762] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_add_two_s.c\n'}
+[0.513827] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_add_two.py\n'}
+[0.513892] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/__init__.py\n'}
+[0.513956] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.514020] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.514119] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/__init__.py\n'}
+[0.514187] (task2) JobProgress: {'identifier': 'task2', 'progress': 'install'}
+[0.514210] (task2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/task2'], 'cwd': '/root/ros2_ws/build/task2', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.516269] (task2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.516670] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/rosidl_interfaces/task2\n'}
+[0.516740] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.516806] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.516873] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.516973] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.h\n'}
+[0.517043] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__functions.c\n'}
+[0.517140] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__struct.h\n'}
+[0.517207] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.h\n'}
+[0.517272] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__struct.h\n'}
+[0.517335] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__functions.h\n'}
+[0.517399] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__functions.c\n'}
+[0.517463] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__functions.h\n'}
+[0.517526] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robot_status.h\n'}
+[0.517590] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.517653] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robo_status.h\n'}
+[0.517716] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/library_path.sh\n'}
+[0.517780] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/library_path.dsv\n'}
+[0.517843] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_generator_c.so\n'}
+[0.517906] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.517969] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.518033] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.518263] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.518331] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.518416] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.518491] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.518557] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.518622] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.518686] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.518750] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_introspection_c.h\n'}
+[0.518814] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.c\n'}
+[0.518879] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.c\n'}
+[0.518943] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[0.519007] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.519408] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_introspection_c.so\n'}
+[0.519516] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[0.519833] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_c.so\n'}
+[0.519911] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.519981] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.520075] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.520282] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.hpp\n'}
+[0.520353] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__traits.hpp\n'}
+[0.520421] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__struct.hpp\n'}
+[0.520488] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__builder.hpp\n'}
+[0.520554] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.hpp\n'}
+[0.520619] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__traits.hpp\n'}
+[0.520684] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__struct.hpp\n'}
+[0.520749] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__builder.hpp\n'}
+[0.520814] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.520879] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robot_status.hpp\n'}
+[0.520945] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/robo_status.hpp\n'}
+[0.521010] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.521109] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.521178] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.521244] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.521310] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/dds_fastrtps\n'}
+[0.521375] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.521440] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.521505] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.521570] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2\n'}
+[0.521634] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg\n'}
+[0.521699] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail\n'}
+[0.521764] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__type_support.cpp\n'}
+[0.521828] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.521956] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robo_status__type_support.cpp\n'}
+[0.522026] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/include/task2/task2/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.522112] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.522200] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_typesupport_cpp.so\n'}
+[0.522265] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/pythonpath.sh\n'}
+[0.522331] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/pythonpath.dsv\n'}
+[0.522396] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info\n'}
+[0.522462] (task2) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.522529] (task2) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.522594] (task2) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.522659] (task2) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.522724] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2\n'}
+[0.522789] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg\n'}
+[0.522854] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robo_status_s.c\n'}
+[0.522974] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robot_status.py\n'}
+[0.523043] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robot_status_s.c\n'}
+[0.523150] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/__init__.py\n'}
+[0.523217] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg/_robo_status.py\n'}
+[0.523282] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/libtask2__rosidl_generator_py.so\n'}
+[0.523348] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.523413] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_c.c\n'}
+[0.523479] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.523545] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.523611] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/_task2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.523676] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.523741] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/__init__.py\n'}
+[0.525828] (task4) StdoutLine: {'line': b'running egg_info\n'}
+[0.526561] (task4) StdoutLine: {'line': b'writing task4.egg-info/PKG-INFO\n'}
+[0.526729] (task4) StdoutLine: {'line': b'writing dependency_links to task4.egg-info/dependency_links.txt\n'}
+[0.526796] (task4) StdoutLine: {'line': b'writing top-level names to task4.egg-info/top_level.txt\n'}
+[0.527810] (task4) StdoutLine: {'line': b"reading manifest file 'task4.egg-info/SOURCES.txt'\n"}
+[0.527980] (task4) StdoutLine: {'line': b"writing manifest file 'task4.egg-info/SOURCES.txt'\n"}
+[0.529516] (task3) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3'...\n"}
+[0.530580] (task3) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv'...\n"}
+[0.531999] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.532187] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.532697] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.532832] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/lib/libtask3__rosidl_generator_py.so\n'}
+[0.532898] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/ament_index/resource_index/rust_packages/task3\n'}
+[0.532968] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust\n'}
+[0.533032] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/Cargo.toml\n'}
+[0.533196] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/src\n'}
+[0.533262] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/src/srv\n'}
+[0.533327] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/src/srv/rmw.rs\n'}
+[0.533390] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/src/srv.rs\n'}
+[0.533453] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/src/lib.rs\n'}
+[0.533516] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/rust/build.rs\n'}
+[0.533579] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/srv/AddTwo.idl\n'}
+[0.533641] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/srv/AddTwo.srv\n'}
+[0.533704] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/srv/AddTwo_Request.msg\n'}
+[0.533766] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/srv/AddTwo_Response.msg\n'}
+[0.533830] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/ament_index/resource_index/package_run_dependencies/task3\n'}
+[0.533893] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/ament_index/resource_index/parent_prefix_path/task3\n'}
+[0.533955] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.sh\n'}
+[0.534018] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.dsv\n'}
+[0.534169] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/path.sh\n'}
+[0.534236] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/environment/path.dsv\n'}
+[0.534301] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/local_setup.bash\n'}
+[0.534470] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/local_setup.sh\n'}
+[0.534577] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/local_setup.zsh\n'}
+[0.534641] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/local_setup.dsv\n'}
+[0.534703] (task3) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task3/share/task3/package.dsv\n'}
+[0.534854] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/ament_index/resource_index/packages/task3\n'}
+[0.534919] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cExport.cmake\n'}
+[0.534982] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.535050] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.535544] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.535613] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cppExport.cmake\n'}
+[0.535677] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.535742] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.535806] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.535870] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.535935] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cExport.cmake\n'}
+[0.535999] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.536090] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.536169] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.536233] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cppExport.cmake\n'}
+[0.536331] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.536397] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_pyExport.cmake\n'}
+[0.536462] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.536527] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake-extras.cmake\n'}
+[0.536591] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.536655] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.536718] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.536782] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.536845] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.537024] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.537145] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3Config.cmake\n'}
+[0.537214] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/cmake/task3Config-version.cmake\n'}
+[0.537279] (task3) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task3/share/task3/package.xml\n'}
+[0.542841] (task4) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_task4_egg\n'}
+[0.543511] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[0.544686] (task3) CommandEnded: {'returncode': 0}
+[0.548892] (task2) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2'...\n"}
+[0.549004] (task2) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/msg'...\n"}
+[0.552933] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.553723] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.554367] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/local/lib/python3.10/dist-packages/task2/task2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.554507] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/lib/libtask2__rosidl_generator_py.so\n'}
+[0.554574] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/rust_packages/task2\n'}
+[0.554640] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust\n'}
+[0.554704] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/Cargo.toml\n'}
+[0.554769] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src\n'}
+[0.554859] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg\n'}
+[0.554927] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg/rmw.rs\n'}
+[0.554991] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/msg.rs\n'}
+[0.555062] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/src/lib.rs\n'}
+[0.555186] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/rust/build.rs\n'}
+[0.555261] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/msg/RoboStatus.idl\n'}
+[0.555336] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/msg/RoboStatus.msg\n'}
+[0.555400] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/package_run_dependencies/task2\n'}
+[0.555464] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/parent_prefix_path/task2\n'}
+[0.555528] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.sh\n'}
+[0.555591] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.dsv\n'}
+[0.555654] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/path.sh\n'}
+[0.555717] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/environment/path.dsv\n'}
+[0.555780] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.bash\n'}
+[0.555917] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.sh\n'}
+[0.555982] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.zsh\n'}
+[0.556050] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/local_setup.dsv\n'}
+[0.556214] (task2) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task2/share/task2/package.dsv\n'}
+[0.556280] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/ament_index/resource_index/packages/task2\n'}
+[0.556344] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cExport.cmake\n'}
+[0.556457] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.556523] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.556588] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.556653] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.556717] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.556781] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cExport.cmake\n'}
+[0.556844] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.556907] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_cppExport.cmake\n'}
+[0.556971] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.557063] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.557283] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.557389] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.557586] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cppExport.cmake\n'}
+[0.557650] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.557713] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_pyExport.cmake\n'}
+[0.557777] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/export_task2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.557840] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.557904] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.557967] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.558039] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.558115] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.558180] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.558250] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.558313] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2Config.cmake\n'}
+[0.558376] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/cmake/task2Config-version.cmake\n'}
+[0.558440] (task2) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task2/share/task2/package.xml\n'}
+[0.563226] (task3) JobEnded: {'identifier': 'task3', 'rc': 0}
+[0.564139] (task3_tester) JobStarted: {'identifier': 'task3_tester'}
+[0.567659] (task4) CommandEnded: {'returncode': 0}
+[0.568264] (task4) JobProgress: {'identifier': 'task4', 'progress': 'install'}
+[0.568540] (task4) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/task4'], 'cwd': '/root/ros2_ws/build/task4', 'env': OrderedDict([('HOSTNAME', '2fef300a6fd9'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/task4'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.569465] (task2) CommandEnded: {'returncode': 0}
+[0.572874] (task4) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.572952] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/ament_index/resource_index/rosidl_interfaces/task4\n'}
+[0.572991] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.573024] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg\n'}
+[0.573062] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.573127] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.573161] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.573194] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__type_support.h\n'}
+[0.573225] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__struct.h\n'}
+[0.573255] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__functions.c\n'}
+[0.573284] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__functions.h\n'}
+[0.573313] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/count_down.h\n'}
+[0.573344] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/library_path.sh\n'}
+[0.573376] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/library_path.dsv\n'}
+[0.573409] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_generator_c.so\n'}
+[0.573480] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.573570] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg\n'}
+[0.573603] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.573647] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.573677] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.573710] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__rosidl_typesupport_fastrtps_c.h\n'}
+[0.573743] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_fastrtps_c.so\n'}
+[0.573776] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.573808] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg\n'}
+[0.573839] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.573894] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.573927] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.573956] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__type_support.c\n'}
+[0.573985] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__rosidl_typesupport_introspection_c.h\n'}
+[0.574015] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_introspection_c.so\n'}
+[0.574049] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_c.so\n'}
+[0.574080] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.574204] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg\n'}
+[0.574238] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.574269] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.574299] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.574356] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__traits.hpp\n'}
+[0.574387] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__builder.hpp\n'}
+[0.574419] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__struct.hpp\n'}
+[0.574451] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__type_support.hpp\n'}
+[0.574479] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/count_down.hpp\n'}
+[0.574509] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.574537] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg\n'}
+[0.574567] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.574596] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.574626] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.574654] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.574684] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/dds_fastrtps\n'}
+[0.574712] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.574741] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4\n'}
+[0.574771] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action\n'}
+[0.574803] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail\n'}
+[0.574833] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__type_support.cpp\n'}
+[0.574865] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/include/task4/task4/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.574897] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_introspection_cpp.so\n'}
+[0.574926] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_typesupport_cpp.so\n'}
+[0.574980] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/pythonpath.sh\n'}
+[0.575215] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/pythonpath.dsv\n'}
+[0.575252] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4-0.0.0-py3.10.egg-info\n'}
+[0.575289] (task4) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.575321] (task4) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.575351] (task4) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.575380] (task4) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.575409] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4\n'}
+[0.575438] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/_task4_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.575469] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/_task4_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.575497] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.575526] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.575555] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/action\n'}
+[0.575583] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/action/_count_down_s.c\n'}
+[0.575611] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/action/_count_down.py\n'}
+[0.575638] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/action/__init__.py\n'}
+[0.575667] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.575707] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/__init__.py\n'}
+[0.575738] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/_task4_s.ep.rosidl_typesupport_c.c\n'}
+[0.575769] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/libtask4__rosidl_generator_py.so\n'}
+[0.588937] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[0.597514] (task4) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4'...\n"}
+[0.597657] (task4) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/action'...\n"}
+[0.600581] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.600736] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.600808] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/local/lib/python3.10/dist-packages/task4/task4_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.600908] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/lib/libtask4__rosidl_generator_py.so\n'}
+[0.600977] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/ament_index/resource_index/rust_packages/task4\n'}
+[0.601072] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust\n'}
+[0.601302] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/Cargo.toml\n'}
+[0.601375] (-) TimerEvent: {}
+[0.601507] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/src\n'}
+[0.601603] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/src/action\n'}
+[0.601675] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/src/action/rmw.rs\n'}
+[0.601744] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/src/action.rs\n'}
+[0.601813] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/src/lib.rs\n'}
+[0.601875] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/rust/build.rs\n'}
+[0.601981] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/action/CountDown.idl\n'}
+[0.602048] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/action/CountDown.action\n'}
+[0.602117] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/ament_index/resource_index/package_run_dependencies/task4\n'}
+[0.602181] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/ament_index/resource_index/parent_prefix_path/task4\n'}
+[0.602242] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/ament_prefix_path.sh\n'}
+[0.602362] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/ament_prefix_path.dsv\n'}
+[0.602427] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/path.sh\n'}
+[0.602493] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/environment/path.dsv\n'}
+[0.602559] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/local_setup.bash\n'}
+[0.602624] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/local_setup.sh\n'}
+[0.602689] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/local_setup.zsh\n'}
+[0.602755] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/local_setup.dsv\n'}
+[0.602820] (task4) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/task4/share/task4/package.dsv\n'}
+[0.602944] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/ament_index/resource_index/packages/task4\n'}
+[0.603012] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_generator_cExport.cmake\n'}
+[0.603109] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.603173] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.603235] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.603296] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.603358] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.603420] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_cExport.cmake\n'}
+[0.603482] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.603543] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_generator_cppExport.cmake\n'}
+[0.603605] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.603665] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.603727] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.603788] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.603857] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_cppExport.cmake\n'}
+[0.603919] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.603984] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_generator_pyExport.cmake\n'}
+[0.604051] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/export_task4__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.604118] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/rosidl_cmake-extras.cmake\n'}
+[0.604177] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.604235] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.604294] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.604354] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.604413] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.604473] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.604532] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4Config.cmake\n'}
+[0.604591] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/cmake/task4Config-version.cmake\n'}
+[0.604651] (task4) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/task4/share/task4/package.xml\n'}
+[0.701508] (-) TimerEvent: {}
+[0.736699] (task2_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task2_tester', 'build', '--build-base', '/root/ros2_ws/build/task2_tester/build', 'install', '--record', '/root/ros2_ws/build/task2_tester/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/task2_tester', 'env': {'HOSTNAME': '2fef300a6fd9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/ros2_ws/build/task2_tester', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/task2_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task2_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.738355] (task1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task1', 'build', '--build-base', '/root/ros2_ws/build/task1/build', 'install', '--record', '/root/ros2_ws/build/task1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/task1', 'env': {'HOSTNAME': '2fef300a6fd9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/ros2_ws/build/task1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.740265] (task4_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task4_tester', 'build', '--build-base', '/root/ros2_ws/build/task4_tester/build', 'install', '--record', '/root/ros2_ws/build/task4_tester/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/task4_tester', 'env': {'HOSTNAME': '2fef300a6fd9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/root/ros2_ws/build/task4_tester', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/task4_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task4_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.740841] (task4) CommandEnded: {'returncode': 0}
+[0.749831] (task4) JobEnded: {'identifier': 'task4', 'rc': 0}
+[0.801611] (-) TimerEvent: {}
+[0.873861] (task4_tester) StdoutLine: {'line': b'running egg_info\n'}
+[0.874222] (task4_tester) StdoutLine: {'line': b'writing ../../build/task4_tester/task4_tester.egg-info/PKG-INFO\n'}
+[0.874405] (task4_tester) StdoutLine: {'line': b'writing dependency_links to ../../build/task4_tester/task4_tester.egg-info/dependency_links.txt\n'}
+[0.874448] (task4_tester) StdoutLine: {'line': b'writing entry points to ../../build/task4_tester/task4_tester.egg-info/entry_points.txt\n'}
+[0.874591] (task4_tester) StdoutLine: {'line': b'writing requirements to ../../build/task4_tester/task4_tester.egg-info/requires.txt\n'}
+[0.874666] (task4_tester) StdoutLine: {'line': b'writing top-level names to ../../build/task4_tester/task4_tester.egg-info/top_level.txt\n'}
+[0.875478] (task4_tester) StdoutLine: {'line': b"reading manifest file '../../build/task4_tester/task4_tester.egg-info/SOURCES.txt'\n"}
+[0.875557] (task4_tester) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.875937] (task4_tester) StdoutLine: {'line': b"writing manifest file '../../build/task4_tester/task4_tester.egg-info/SOURCES.txt'\n"}
+[0.876011] (task4_tester) StdoutLine: {'line': b'running build\n'}
+[0.876057] (task4_tester) StdoutLine: {'line': b'running build_py\n'}
+[0.876094] (task4_tester) StdoutLine: {'line': b'copying task4_tester/client.py -> /root/ros2_ws/build/task4_tester/build/lib/task4_tester\n'}
+[0.876158] (task4_tester) StdoutLine: {'line': b'running install\n'}
+[0.876342] (task4_tester) StdoutLine: {'line': b'running install_lib\n'}
+[0.876618] (task1) StdoutLine: {'line': b'running egg_info\n'}
+[0.876762] (task4_tester) StdoutLine: {'line': b'copying /root/ros2_ws/build/task4_tester/build/lib/task4_tester/client.py -> /root/ros2_ws/install/task4_tester/lib/python3.10/site-packages/task4_tester\n'}
+[0.877025] (task1) StdoutLine: {'line': b'writing ../../build/task1/task1.egg-info/PKG-INFO\n'}
+[0.877166] (task4_tester) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/task4_tester/lib/python3.10/site-packages/task4_tester/client.py to client.cpython-310.pyc\n'}
+[0.877375] (task1) StdoutLine: {'line': b'writing dependency_links to ../../build/task1/task1.egg-info/dependency_links.txt\n'}
+[0.877473] (task1) StdoutLine: {'line': b'writing entry points to ../../build/task1/task1.egg-info/entry_points.txt\n'}
+[0.877553] (task1) StdoutLine: {'line': b'writing requirements to ../../build/task1/task1.egg-info/requires.txt\n'}
+[0.877625] (task1) StdoutLine: {'line': b'writing top-level names to ../../build/task1/task1.egg-info/top_level.txt\n'}
+[0.877809] (task4_tester) StdoutLine: {'line': b'running install_data\n'}
+[0.877906] (task4_tester) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.878327] (task1) StdoutLine: {'line': b"reading manifest file '../../build/task1/task1.egg-info/SOURCES.txt'\n"}
+[0.878542] (task2_tester) StdoutLine: {'line': b'running egg_info\n'}
+[0.878662] (task1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.878833] (task4_tester) StdoutLine: {'line': b"removing '/root/ros2_ws/install/task4_tester/lib/python3.10/site-packages/task4_tester-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.878977] (task1) StdoutLine: {'line': b"writing manifest file '../../build/task1/task1.egg-info/SOURCES.txt'\n"}
+[0.879072] (task1) StdoutLine: {'line': b'running build\n'}
+[0.879144] (task1) StdoutLine: {'line': b'running build_py\n'}
+[0.879360] (task4_tester) StdoutLine: {'line': b'Copying ../../build/task4_tester/task4_tester.egg-info to /root/ros2_ws/install/task4_tester/lib/python3.10/site-packages/task4_tester-0.0.0-py3.10.egg-info\n'}
+[0.879448] (task2_tester) StdoutLine: {'line': b'writing ../../build/task2_tester/task2_tester.egg-info/PKG-INFO\n'}
+[0.879519] (task2_tester) StdoutLine: {'line': b'writing dependency_links to ../../build/task2_tester/task2_tester.egg-info/dependency_links.txt\n'}
+[0.879582] (task1) StdoutLine: {'line': b'running install\n'}
+[0.879645] (task2_tester) StdoutLine: {'line': b'writing entry points to ../../build/task2_tester/task2_tester.egg-info/entry_points.txt\n'}
+[0.879708] (task1) StdoutLine: {'line': b'running install_lib\n'}
+[0.879769] (task4_tester) StdoutLine: {'line': b'running install_scripts\n'}
+[0.879835] (task2_tester) StdoutLine: {'line': b'writing requirements to ../../build/task2_tester/task2_tester.egg-info/requires.txt\n'}
+[0.879902] (task2_tester) StdoutLine: {'line': b'writing top-level names to ../../build/task2_tester/task2_tester.egg-info/top_level.txt\n'}
+[0.879995] (task1) StdoutLine: {'line': b'running install_data\n'}
+[0.880068] (task1) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.880148] (task2_tester) StdoutLine: {'line': b"reading manifest file '../../build/task2_tester/task2_tester.egg-info/SOURCES.txt'\n"}
+[0.880232] (task2_tester) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.880576] (task2_tester) StdoutLine: {'line': b"writing manifest file '../../build/task2_tester/task2_tester.egg-info/SOURCES.txt'\n"}
+[0.880676] (task2_tester) StdoutLine: {'line': b'running build\n'}
+[0.880739] (task2_tester) StdoutLine: {'line': b'running build_py\n'}
+[0.880830] (task2_tester) StdoutLine: {'line': b'running install\n'}
+[0.880933] (task1) StdoutLine: {'line': b"removing '/root/ros2_ws/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.881022] (task2_tester) StdoutLine: {'line': b'running install_lib\n'}
+[0.881116] (task1) StdoutLine: {'line': b'Copying ../../build/task1/task1.egg-info to /root/ros2_ws/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info\n'}
+[0.881541] (task1) StdoutLine: {'line': b'running install_scripts\n'}
+[0.881677] (task2_tester) StdoutLine: {'line': b'running install_data\n'}
+[0.881757] (task2_tester) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.882808] (task2_tester) StdoutLine: {'line': b"removing '/root/ros2_ws/install/task2_tester/lib/python3.10/site-packages/task2_tester-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.882966] (task2_tester) StdoutLine: {'line': b'Copying ../../build/task2_tester/task2_tester.egg-info to /root/ros2_ws/install/task2_tester/lib/python3.10/site-packages/task2_tester-0.0.0-py3.10.egg-info\n'}
+[0.883430] (task2_tester) StdoutLine: {'line': b'running install_scripts\n'}
+[0.892497] (task4_tester) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/task4_tester/install.log'\n"}
+[0.894820] (task1) StdoutLine: {'line': b'Installing logger script to /root/ros2_ws/install/task1/lib/task1\n'}
+[0.894975] (task1) StdoutLine: {'line': b'Installing processor script to /root/ros2_ws/install/task1/lib/task1\n'}
+[0.895065] (task1) StdoutLine: {'line': b'Installing sensor script to /root/ros2_ws/install/task1/lib/task1\n'}
+[0.895133] (task1) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/task1/install.log'\n"}
+[0.896705] (task2_tester) StdoutLine: {'line': b'Installing publisher script to /root/ros2_ws/install/task2_tester/lib/task2_tester\n'}
+[0.896814] (task2_tester) StdoutLine: {'line': b'Installing subscriber script to /root/ros2_ws/install/task2_tester/lib/task2_tester\n'}
+[0.896911] (task2_tester) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/task2_tester/install.log'\n"}
+[0.901707] (-) TimerEvent: {}
+[0.909536] (task4_tester) CommandEnded: {'returncode': 0}
+[0.913858] (task4_tester) JobEnded: {'identifier': 'task4_tester', 'rc': 0}
+[0.915215] (task1) CommandEnded: {'returncode': 0}
+[0.920641] (task1) JobEnded: {'identifier': 'task1', 'rc': 0}
+[0.921108] (task2_tester) CommandEnded: {'returncode': 0}
+[0.924256] (task2_tester) JobEnded: {'identifier': 'task2_tester', 'rc': 0}
+[0.954899] (task3_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task3_tester', 'build', '--build-base', '/root/ros2_ws/build/task3_tester/build', 'install', '--record', '/root/ros2_ws/build/task3_tester/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/task3_tester', 'env': {'HOSTNAME': '2fef300a6fd9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/task3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/rh/', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/task3:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/task3_tester', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/task3_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task3_tester/lib/python3.10/site-packages:/root/ros2_ws/install/task3/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/task3'}, 'shell': False}
+[1.001891] (-) TimerEvent: {}
+[1.090595] (task3_tester) StdoutLine: {'line': b'running egg_info\n'}
+[1.090961] (task3_tester) StdoutLine: {'line': b'writing ../../build/task3_tester/task3_tester.egg-info/PKG-INFO\n'}
+[1.091198] (task3_tester) StdoutLine: {'line': b'writing dependency_links to ../../build/task3_tester/task3_tester.egg-info/dependency_links.txt\n'}
+[1.091305] (task3_tester) StdoutLine: {'line': b'writing entry points to ../../build/task3_tester/task3_tester.egg-info/entry_points.txt\n'}
+[1.091386] (task3_tester) StdoutLine: {'line': b'writing requirements to ../../build/task3_tester/task3_tester.egg-info/requires.txt\n'}
+[1.091460] (task3_tester) StdoutLine: {'line': b'writing top-level names to ../../build/task3_tester/task3_tester.egg-info/top_level.txt\n'}
+[1.092286] (task3_tester) StdoutLine: {'line': b"reading manifest file '../../build/task3_tester/task3_tester.egg-info/SOURCES.txt'\n"}
+[1.092444] (task3_tester) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.092622] (task3_tester) StdoutLine: {'line': b"writing manifest file '../../build/task3_tester/task3_tester.egg-info/SOURCES.txt'\n"}
+[1.092721] (task3_tester) StdoutLine: {'line': b'running build\n'}
+[1.092798] (task3_tester) StdoutLine: {'line': b'running build_py\n'}
+[1.092913] (task3_tester) StdoutLine: {'line': b'running install\n'}
+[1.093006] (task3_tester) StdoutLine: {'line': b'running install_lib\n'}
+[1.093782] (task3_tester) StdoutLine: {'line': b'running install_data\n'}
+[1.093883] (task3_tester) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.094901] (task3_tester) StdoutLine: {'line': b"removing '/root/ros2_ws/install/task3_tester/lib/python3.10/site-packages/task3_tester-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.095024] (task3_tester) StdoutLine: {'line': b'Copying ../../build/task3_tester/task3_tester.egg-info to /root/ros2_ws/install/task3_tester/lib/python3.10/site-packages/task3_tester-0.0.0-py3.10.egg-info\n'}
+[1.095420] (task3_tester) StdoutLine: {'line': b'running install_scripts\n'}
+[1.102045] (-) TimerEvent: {}
+[1.108391] (task3_tester) StdoutLine: {'line': b'Installing client script to /root/ros2_ws/install/task3_tester/lib/task3_tester\n'}
+[1.108548] (task3_tester) StdoutLine: {'line': b'Installing service script to /root/ros2_ws/install/task3_tester/lib/task3_tester\n'}
+[1.108725] (task3_tester) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/task3_tester/install.log'\n"}
+[1.121979] (task3_tester) CommandEnded: {'returncode': 0}
+[1.128020] (task3_tester) JobEnded: {'identifier': 'task3_tester', 'rc': 0}
+[1.128704] (-) EventReactorShutdown: {}

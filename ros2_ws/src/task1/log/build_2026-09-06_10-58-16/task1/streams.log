@@ -1,0 +1,47 @@
+[0.364s] Invoking command in '/root/ros2_ws/src/task1': PYTHONPATH=/root/ros2_ws/src/task1/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/task1 build --build-base /root/ros2_ws/src/task1/build/task1/build install --record /root/ros2_ws/src/task1/build/task1/install.log --single-version-externally-managed install_data
+[0.493s] running egg_info
+[0.494s] creating build/task1/task1.egg-info
+[0.494s] writing build/task1/task1.egg-info/PKG-INFO
+[0.494s] writing dependency_links to build/task1/task1.egg-info/dependency_links.txt
+[0.494s] writing entry points to build/task1/task1.egg-info/entry_points.txt
+[0.494s] writing requirements to build/task1/task1.egg-info/requires.txt
+[0.494s] writing top-level names to build/task1/task1.egg-info/top_level.txt
+[0.494s] writing manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[0.495s] reading manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[0.495s] adding license file 'LICENSE'
+[0.496s] writing manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[0.496s] running build
+[0.496s] running build_py
+[0.496s] creating /root/ros2_ws/src/task1/build/task1/build
+[0.496s] creating /root/ros2_ws/src/task1/build/task1/build/lib
+[0.496s] creating /root/ros2_ws/src/task1/build/task1/build/lib/task1
+[0.496s] copying task1/processor_node.py -> /root/ros2_ws/src/task1/build/task1/build/lib/task1
+[0.496s] copying task1/sensor_node.py -> /root/ros2_ws/src/task1/build/task1/build/lib/task1
+[0.496s] copying task1/logger_node.py -> /root/ros2_ws/src/task1/build/task1/build/lib/task1
+[0.496s] copying task1/__init__.py -> /root/ros2_ws/src/task1/build/task1/build/lib/task1
+[0.496s] running install
+[0.496s] running install_lib
+[0.496s] creating /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[0.496s] copying /root/ros2_ws/src/task1/build/task1/build/lib/task1/processor_node.py -> /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[0.496s] copying /root/ros2_ws/src/task1/build/task1/build/lib/task1/sensor_node.py -> /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[0.497s] copying /root/ros2_ws/src/task1/build/task1/build/lib/task1/logger_node.py -> /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[0.497s] copying /root/ros2_ws/src/task1/build/task1/build/lib/task1/__init__.py -> /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[0.497s] byte-compiling /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/processor_node.py to processor_node.cpython-310.pyc
+[0.497s] byte-compiling /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/sensor_node.py to sensor_node.cpython-310.pyc
+[0.497s] byte-compiling /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/logger_node.py to logger_node.cpython-310.pyc
+[0.498s] byte-compiling /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/__init__.py to __init__.cpython-310.pyc
+[0.498s] running install_data
+[0.498s] creating /root/ros2_ws/src/task1/install/task1/share/ament_index
+[0.498s] creating /root/ros2_ws/src/task1/install/task1/share/ament_index/resource_index
+[0.498s] creating /root/ros2_ws/src/task1/install/task1/share/ament_index/resource_index/packages
+[0.498s] copying resource/task1 -> /root/ros2_ws/src/task1/install/task1/share/ament_index/resource_index/packages
+[0.498s] copying package.xml -> /root/ros2_ws/src/task1/install/task1/share/task1
+[0.498s] creating /root/ros2_ws/src/task1/install/task1/share/task1/launch
+[0.498s] running install_egg_info
+[0.499s] Copying build/task1/task1.egg-info to /root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info
+[0.499s] running install_scripts
+[0.513s] Installing logger script to /root/ros2_ws/src/task1/install/task1/lib/task1
+[0.513s] Installing processor script to /root/ros2_ws/src/task1/install/task1/lib/task1
+[0.513s] Installing sensor script to /root/ros2_ws/src/task1/install/task1/lib/task1
+[0.513s] writing list of installed files to '/root/ros2_ws/src/task1/build/task1/install.log'
+[0.527s] Invoked command in '/root/ros2_ws/src/task1' returned '0': PYTHONPATH=/root/ros2_ws/src/task1/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/task1/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/task1 build --build-base /root/ros2_ws/src/task1/build/task1/build install --record /root/ros2_ws/src/task1/build/task1/install.log --single-version-externally-managed install_data

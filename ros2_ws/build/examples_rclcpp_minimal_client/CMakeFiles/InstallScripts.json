@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/ros2_ws/build/examples_rclcpp_minimal_client/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

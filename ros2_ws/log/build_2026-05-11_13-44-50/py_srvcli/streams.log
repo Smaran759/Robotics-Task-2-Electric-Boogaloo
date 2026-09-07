@@ -1,0 +1,41 @@
+[0.630s] Invoking command in '/root/ros2_ws/src/py_srvcli': PYTHONPATH=/root/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /root/ros2_ws/build/py_srvcli/build install --record /root/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.828s] running egg_info
+[0.830s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.830s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.830s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.830s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.830s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.831s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.831s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.831s] adding license file 'LICENSE'
+[0.831s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.831s] running build
+[0.831s] running build_py
+[0.831s] creating /root/ros2_ws/build/py_srvcli/build
+[0.831s] creating /root/ros2_ws/build/py_srvcli/build/lib
+[0.831s] creating /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.831s] copying py_srvcli/service_member_function.py -> /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.832s] copying py_srvcli/__init__.py -> /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.832s] copying py_srvcli/client_member_function.py -> /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.832s] running install
+[0.832s] running install_lib
+[0.833s] creating /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.833s] copying /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.833s] copying /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.833s] copying /root/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.833s] byte-compiling /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[0.834s] byte-compiling /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.834s] byte-compiling /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.834s] running install_data
+[0.834s] creating /root/ros2_ws/install/py_srvcli/share/ament_index
+[0.835s] creating /root/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.835s] creating /root/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.835s] copying resource/py_srvcli -> /root/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.835s] copying package.xml -> /root/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.835s] running install_egg_info
+[0.837s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.837s] running install_scripts
+[0.857s] Installing service = py_srvcli.service_member_function:mainclientt script to /root/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.858s] writing list of installed files to '/root/ros2_ws/build/py_srvcli/install.log'
+[0.877s] Invoked command in '/root/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/root/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /root/ros2_ws/build/py_srvcli/build install --record /root/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

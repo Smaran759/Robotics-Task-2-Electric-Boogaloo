@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/task5_tester/task5_tester.egg-info
+writing ../../build/task5_tester/task5_tester.egg-info/PKG-INFO
+writing dependency_links to ../../build/task5_tester/task5_tester.egg-info/dependency_links.txt
+writing entry points to ../../build/task5_tester/task5_tester.egg-info/entry_points.txt
+writing requirements to ../../build/task5_tester/task5_tester.egg-info/requires.txt
+writing top-level names to ../../build/task5_tester/task5_tester.egg-info/top_level.txt
+writing manifest file '../../build/task5_tester/task5_tester.egg-info/SOURCES.txt'
+reading manifest file '../../build/task5_tester/task5_tester.egg-info/SOURCES.txt'
+writing manifest file '../../build/task5_tester/task5_tester.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/task5_tester/build
+creating /root/ros2_ws/build/task5_tester/build/lib
+creating /root/ros2_ws/build/task5_tester/build/lib/task5_tester
+copying task5_tester/goal_client.py -> /root/ros2_ws/build/task5_tester/build/lib/task5_tester
+copying task5_tester/__init__.py -> /root/ros2_ws/build/task5_tester/build/lib/task5_tester
+copying task5_tester/goal_tracker_server.py -> /root/ros2_ws/build/task5_tester/build/lib/task5_tester
+running install
+running install_lib
+creating /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester
+copying /root/ros2_ws/build/task5_tester/build/lib/task5_tester/goal_client.py -> /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester
+copying /root/ros2_ws/build/task5_tester/build/lib/task5_tester/__init__.py -> /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester
+copying /root/ros2_ws/build/task5_tester/build/lib/task5_tester/goal_tracker_server.py -> /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester
+byte-compiling /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester/goal_client.py to goal_client.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester/goal_tracker_server.py to goal_tracker_server.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/task5_tester/share/ament_index
+creating /root/ros2_ws/install/task5_tester/share/ament_index/resource_index
+creating /root/ros2_ws/install/task5_tester/share/ament_index/resource_index/packages
+copying resource/task5_tester -> /root/ros2_ws/install/task5_tester/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/task5_tester/share/task5_tester
+running install_egg_info
+Copying ../../build/task5_tester/task5_tester.egg-info to /root/ros2_ws/install/task5_tester/lib/python3.10/site-packages/task5_tester-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /root/ros2_ws/install/task5_tester/lib/task5_tester
+Installing server script to /root/ros2_ws/install/task5_tester/lib/task5_tester
+writing list of installed files to '/root/ros2_ws/build/task5_tester/install.log'

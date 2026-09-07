@@ -1,0 +1,4 @@
+[console_scripts]
+client = task3_tester.Client:main
+service = task3_tester.Service:main
+

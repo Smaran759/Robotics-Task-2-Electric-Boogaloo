@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from task4/action/CountDown.action
+// generated code does not contain a copyright notice
+
+
+module task4 {
+  module action {
+    struct CountDown_Goal {
+      int32 target;
+    };
+    struct CountDown_Result {
+      int32 current_count;
+    };
+    struct CountDown_Feedback {
+      string status;
+    };
+  };
+};

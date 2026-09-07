@@ -1,0 +1,4 @@
+source;share/task5/environment/ament_prefix_path.sh
+source;share/task5/environment/library_path.sh
+source;share/task5/environment/path.sh
+source;share/task5/environment/pythonpath.sh

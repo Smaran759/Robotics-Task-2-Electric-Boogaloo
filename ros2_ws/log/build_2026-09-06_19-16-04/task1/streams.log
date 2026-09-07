@@ -1,0 +1,24 @@
+[0.825s] Invoking command in '/root/ros2_ws/src/task1': PYTHONPATH=/root/ros2_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1 build --build-base /root/ros2_ws/build/task1/build install --record /root/ros2_ws/build/task1/install.log --single-version-externally-managed install_data
+[0.979s] running egg_info
+[0.979s] writing ../../build/task1/task1.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../../build/task1/task1.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/task1/task1.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/task1/task1.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/task1/task1.egg-info/top_level.txt
+[0.980s] reading manifest file '../../build/task1/task1.egg-info/SOURCES.txt'
+[0.981s] adding license file 'LICENSE'
+[0.981s] writing manifest file '../../build/task1/task1.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.982s] running build_py
+[0.982s] running install
+[0.982s] running install_lib
+[0.982s] running install_data
+[0.982s] running install_egg_info
+[0.984s] removing '/root/ros2_ws/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.984s] Copying ../../build/task1/task1.egg-info to /root/ros2_ws/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info
+[0.984s] running install_scripts
+[0.999s] Installing logger script to /root/ros2_ws/install/task1/lib/task1
+[0.999s] Installing processor script to /root/ros2_ws/install/task1/lib/task1
+[0.999s] Installing sensor script to /root/ros2_ws/install/task1/lib/task1
+[0.999s] writing list of installed files to '/root/ros2_ws/build/task1/install.log'
+[1.015s] Invoked command in '/root/ros2_ws/src/task1' returned '0': PYTHONPATH=/root/ros2_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1 build --build-base /root/ros2_ws/build/task1/build install --record /root/ros2_ws/build/task1/install.log --single-version-externally-managed install_data

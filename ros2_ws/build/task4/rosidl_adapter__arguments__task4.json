@@ -1,0 +1,6 @@
+{
+  "package_name": "task4",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/task4:action/CountDown.action"
+  ]
+}

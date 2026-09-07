@@ -1,0 +1,6 @@
+{
+  "package_name": "task5",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/task5:action/TrackGoal.action"
+  ]
+}

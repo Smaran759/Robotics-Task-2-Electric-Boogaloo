@@ -1,0 +1,5 @@
+[console_scripts]
+logger = py_pubsub.logger_node:main
+processor = py_pubsub.processor_node:main
+sensor = py_pubsub.sensor_node:main
+

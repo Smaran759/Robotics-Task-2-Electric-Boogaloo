@@ -1,0 +1,4 @@
+[console_scripts]
+client = task4_tester.client:main
+server = task4_tester.server:main
+

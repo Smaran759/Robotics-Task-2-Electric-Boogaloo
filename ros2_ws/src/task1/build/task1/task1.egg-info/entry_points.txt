@@ -1,0 +1,5 @@
+[console_scripts]
+logger = task1.logger_node:main
+processor = task1.processor_node:main
+sensor = task1.sensor_node:main
+

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/task5_tester/task5_tester.egg-info/PKG-INFO
+../../build/task5_tester/task5_tester.egg-info/SOURCES.txt
+../../build/task5_tester/task5_tester.egg-info/dependency_links.txt
+../../build/task5_tester/task5_tester.egg-info/entry_points.txt
+../../build/task5_tester/task5_tester.egg-info/requires.txt
+../../build/task5_tester/task5_tester.egg-info/top_level.txt
+../../build/task5_tester/task5_tester.egg-info/zip-safe
+resource/task5_tester
+task5_tester/__init__.py
+task5_tester/goal_client.py
+task5_tester/goal_tracker_server.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

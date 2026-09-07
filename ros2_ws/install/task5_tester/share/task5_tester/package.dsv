@@ -1,0 +1,6 @@
+source;share/task5_tester/hook/pythonpath.ps1
+source;share/task5_tester/hook/pythonpath.dsv
+source;share/task5_tester/hook/pythonpath.sh
+source;share/task5_tester/hook/ament_prefix_path.ps1
+source;share/task5_tester/hook/ament_prefix_path.dsv
+source;share/task5_tester/hook/ament_prefix_path.sh

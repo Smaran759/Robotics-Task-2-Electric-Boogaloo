@@ -1,0 +1,24 @@
+[4.621s] Invoking command in '/root/ros2_ws/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/root/ros2_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[5.972s] running develop
+[6.615s] running egg_info
+[6.616s] creating examples_rclpy_pointcloud_publisher.egg-info
+[6.616s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[6.616s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[6.616s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[6.616s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[6.616s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[6.616s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.619s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.624s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[6.630s] running build_ext
+[6.633s] Creating /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[6.638s] Installing pointcloud_publisher script to /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[6.638s] 
+[6.638s] Installed /root/ros2_ws/build/examples_rclpy_pointcloud_publisher
+[6.638s] running symlink_data
+[6.641s] creating /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[6.642s] creating /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[6.642s] creating /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.642s] symbolically linking /root/ros2_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.642s] symbolically linking /root/ros2_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /root/ros2_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[6.772s] Invoked command in '/root/ros2_ws/build/examples_rclpy_pointcloud_publisher' returned '0': PYTHONPATH=/root/ros2_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
